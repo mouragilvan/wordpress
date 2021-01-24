@@ -1,0 +1,2 @@
+# wordpress
+Projeto padrão Wordpress
