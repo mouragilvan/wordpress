@@ -3,7 +3,7 @@ Projeto padrão Wordpress
 
 # Tecnologias
 ## MySQL Server
-## PHPMYADMIN
+## PHPMYADMIN (Rodando na porta 8080 | http://localhost:8080)
 
 ## Como usar
 ### Acesse a raiz do projeto pelo terminal e digite os seguintes comandos:
@@ -18,7 +18,7 @@ Projeto padrão Wordpress
 ### docker-compose down 
 ### Realize as alterações necessárias no arquivo docker-compose.yml e repita os comandos de como usar
 
-# Credenciais de banco de dados:
+# Credenciais de banco de dados e PHPMYADMIN:
 ###  Nome do banco MySQL: wordpress
 ###  Usuário do banco MySQL: wordpress
 ###  Senha do banco MySQL: wordpres
