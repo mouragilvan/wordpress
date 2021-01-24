@@ -1,16 +1,24 @@
 # Instalação limpa do Wordpress com Docker
 Projeto padrão Wordpress
 
+# Tecnologias
+## MySQL Server
+## PHPMYADMIN
+
 ## Como usar
 ### Acesse a raiz do projeto pelo terminal e digite os seguintes comandos:
 ### docker-compose build --no-cache
 ### docker-compose up -d
 
 ## Pronto!
-### Agora você pode fazer uma instalação limpa do Wordpress!
+### Agora temos um ambiente configurado! Agora basta você instalar o Wordpress e os plugins de acordo com a sua necessidade!
 
 ## Caso dê alguma coisa errada e precise remover os contâineres
 ### docker-compose stop
 ### docker-compose down 
 ### Realize as alterações necessárias no arquivo docker-compose.yml e repita os comandos de como usar
 
+# Credenciais de banco de dados:
+###  Nome do banco MySQL: wordpress
+###  Usuário do banco MySQL: wordpress
+###  Senha do banco MySQL: wordpres
