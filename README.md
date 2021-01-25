@@ -17,7 +17,7 @@
 - docker-compose build --no-cache
 - docker-compose up -d
 
-### Pronto! Seu Wordpress estará rodando na porta 80 em [http://localhost:80]
+### Pronto! Seu Wordpress estará rodando na porta 80 em http://localhost:80
 ### Agora temos um ambiente configurado! Agora basta você instalar o Wordpress e os plugins de acordo com a sua necessidade!
 
 ## Caso dê alguma coisa errada e precise remover os contâineres
