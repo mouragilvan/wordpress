@@ -1,5 +1,5 @@
 # Instalação limpa do Wordpress com Docker
-##Projeto padrão Wordpress Versão 2
+## Projeto padrão Wordpress Versão 2
 
 - O que há de novo? 
 - Nesta versão, fiz questão de colocar no docker-compose.yml a chamada da imagem do PHP. Neste caso, você terá a liberdade de usar o Wordpress em outras versões de PHP
