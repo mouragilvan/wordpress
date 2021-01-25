@@ -14,7 +14,8 @@
 
 ## Como usar
 
-### Acesse o arquivo .env na raiz do projeto e informe/altere as credenciais de acesso:
+### Passo 1
+#### Acesse o arquivo .env na raiz do projeto e informe/altere as credenciais de acesso:
 ```
 WEB_CONTAINER_NAME=nome-do-seu-container-web
 DB_CONTAINER_NAME=nome-do-seu-container-db
@@ -25,7 +26,8 @@ DB_PASS=senha-do-usuario-do-banco
 DB_DATABASE=nome-do-banco-de-dados
 ```
 
-### Acesse a raiz do projeto pelo terminal e digite os seguintes comandos:
+### Passo 2
+#### Acesse a raiz do projeto pelo terminal e digite os seguintes comandos:
 
 ``` 
 docker-compose build --no-cache
