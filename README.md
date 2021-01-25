@@ -1,4 +1,4 @@
-# Instalação limpa do Wordpress com Docker
+# Ambiente Wordpress com Docker
 ## Projeto padrão Wordpress Versão 2
 
 - O que há de novo? 
