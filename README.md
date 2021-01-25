@@ -7,7 +7,7 @@
 - As credenciais de acesso como login e senha do MySQL e do PHPMYADMIN você foram colocadas no .env e você pode alterar como quiser.
 - Os nomes dos containers também podem ser alterados no .env
 <hr>
-<div style="font-size:15px">Tecnologias</div>
+<div style="font-size:25px">Tecnologias</div>
 - PHP 7+
 - MySQL Server
 - PHPMYADMIN (Rodando na porta 8080 | http://localhost:8080)
