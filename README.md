@@ -3,7 +3,9 @@ Projeto padrão Wordpress Versão 2
 
 - O que há de novo? 
 - Nesta versão, fiz questão de colocar no docker-compose.yml a chamada da imagem do PHP. Neste caso, você terá a liberdade de usar o Wordpress em outras versões de PHP
-- Adicionei também o arquivo de variáveis de ambiente .env para você customizar melhor seus containers
+- Adicionei também o arquivo de variáveis de ambiente .env para você customizar melhor seus containers. 
+- As credenciais de acesso como login e senha do MySQL e do PHPMYADMIN você foram colocadas no .env e você pode alterar como quiser.
+- Os nomes dos containers também podem ser alterados no .env
 
 # Tecnologias
 ## PHP 7+
@@ -23,7 +25,3 @@ Projeto padrão Wordpress Versão 2
 ### docker-compose down 
 ### Realize as alterações necessárias no arquivo docker-compose.yml e repita os comandos de como usar
 
-# Credenciais de banco de dados e PHPMYADMIN:
-###  Nome do banco MySQL: wordpress
-###  Usuário do banco MySQL: wordpress
-###  Senha do banco MySQL: wordpres
