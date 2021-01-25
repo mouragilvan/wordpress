@@ -13,6 +13,18 @@
 - PHPMYADMIN (Rodando na porta 8080 | http://localhost:8080)
 
 ## Como usar
+
+### Acesse o arquivo .env na raiz do projeto e informe/altere as credenciais de acesso:
+```
+WEB_CONTAINER_NAME=nome-do-seu-container-web
+DB_CONTAINER_NAME=nome-do-seu-container-db
+PMA_CONTAINER_NAME=nome-do-seu-container-phpmyadmin
+
+DB_USER=wordpress
+DB_PASS=wordpress
+DB_DATABASE=wordpress
+```
+
 ### Acesse a raiz do projeto pelo terminal e digite os seguintes comandos:
 
 ``` 
