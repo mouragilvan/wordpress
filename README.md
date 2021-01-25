@@ -13,10 +13,15 @@
 - PHPMYADMIN (Rodando na porta 8080 | http://localhost:8080)
 
 ## Como usar
-- Acesse a raiz do projeto pelo terminal e digite os seguintes comandos:
-- docker-compose build --no-cache
-- docker-compose up -d
+### Acesse a raiz do projeto pelo terminal e digite os seguintes comandos:
 
+``` 
+docker-compose build --no-cache
+```
+
+```
+docker-compose up -d
+```
 ### Pronto! Seu Wordpress estará rodando na porta 80 em http://localhost:80
 ### Agora temos um ambiente configurado! Agora basta você instalar o Wordpress e os plugins de acordo com a sua necessidade!
 
