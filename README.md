@@ -1,7 +1,12 @@
 # Instalação limpa do Wordpress com Docker
-Projeto padrão Wordpress
+Projeto padrão Wordpress Versão 2
+
+- O que há de novo? 
+- Nesta versão, fiz questão de colocar no docker-compose.yml a chamada da imagem do PHP. Neste caso, você terá a liberdade de usar o Wordpress em outras versões de PHP
+
 
 # Tecnologias
+## PHP 7+
 ## MySQL Server
 ## PHPMYADMIN (Rodando na porta 8080 | http://localhost:8080)
 
