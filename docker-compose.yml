@@ -1,9 +1,10 @@
 version: "3"
 
 services:
+  #WEB PHP E APACHE
   web:
     image: webdevops/php-apache:alpine-php7
-    container_name: wordpress-starter
+    container_name: ${WEB_CONTAINER_NAME}
     ports:
       - "80:80"      
     volumes:
@@ -11,26 +12,29 @@ services:
     links:
        - db:db
 
+  #MySQL Server     
   db:
-    image: mysql
-    container_name: db-wordpress-starter
+    image: mysql:latest
+    container_name: ${DB_CONTAINER_NAME}
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     environment:      
       MYSQL_ROOT_PASSWORD: wordpress 
-      MYSQL_USER: wordpress
-      MYSQL_PASSWORD: wordpress
-      MYSQL_DATABASE: wordpress
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASS}
+      MYSQL_DATABASE: ${DB_DATABASE}
     ports:
-      - "3306:3306"  
+      - "3306:3306"
+
+  #PHPMYADMIN    
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
-    container_name: pma-wordpress-starter
+    container_name: ${PMA_CONTAINER_NAME}
     environment:
-       MYSQL_ROOT_PASSWORD: wordpress 
-       MYSQL_USER: wordpress
-       MYSQL_PASSWORD: wordpress
-       MYSQL_DATABASE: wordpress
+       MYSQL_ROOT_PASSWORD: ${DB_PASS} 
+       MYSQL_USER: ${DB_USER}
+       MYSQL_PASSWORD: ${DB_PASS}
+       MYSQL_DATABASE: ${DB_DATABASE}
     ports:
       - "8080:80"
     volumes:
