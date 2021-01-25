@@ -8,9 +8,9 @@ Projeto padrão Wordpress Versão 2
 - Os nomes dos containers também podem ser alterados no .env
 
 # Tecnologias
-## PHP 7+
-## MySQL Server
-## PHPMYADMIN (Rodando na porta 8080 | http://localhost:8080)
+- PHP 7+
+- MySQL Server
+- PHPMYADMIN (Rodando na porta 8080 | http://localhost:8080)
 
 ## Como usar
 ### Acesse a raiz do projeto pelo terminal e digite os seguintes comandos:
