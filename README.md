@@ -27,7 +27,17 @@ DB_DATABASE=nome-do-banco-de-dados
 ```
 ### Passo 2
 #### Altere as credenciais de acesso ao banco no arquivo wp-config.php de acordo com seu .env
+```
+// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define( 'DB_NAME', 'nome-do-banco-de-dados');
 
+/** MySQL database username */
+define( 'DB_USER', 'nome-do-usuario-do-banco');
+
+/** MySQL database password */
+define( 'DB_PASSWORD', 'senha-do-usuario-do-banco');
+```
 
 ### Passo 3
 #### Acesse a raiz do projeto pelo terminal e digite os seguintes comandos:
