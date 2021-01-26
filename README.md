@@ -26,7 +26,7 @@ DB_PASS=senha-do-usuario-do-banco
 DB_DATABASE=nome-do-banco-de-dados
 ```
 ### Passo 2
-#### Altera as credenciais de acesso ao banco no arquivo wp-config.php de acordo com seu .env
+#### Altere as credenciais de acesso ao banco no arquivo wp-config.php de acordo com seu .env
 
 
 ### Passo 3
