@@ -59,5 +59,5 @@ docker-compose stop
 ```
 docker-compose down 
 ```
-## Em seguida, realize as alterações necessárias no arquivo docker-compose.yml e repita os comandos de como usar
+### Em seguida, realize as alterações necessárias no arquivo docker-compose.yml e repita os comandos de como usar
 
